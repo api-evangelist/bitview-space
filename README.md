@@ -1,4 +1,4 @@
-# bitview.space
+# Bitview
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bitview.space is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://bitview.space/
+Bitview provides a comprehensive Bitcoin data platform offering real‑time blockchain analytics, charting tools, and developer APIs. Users can explore blocks, transactions, mempool activity, fees, and various on‑chain metrics through a web UI and programmatic endpoints. The service is open‑source, licensed under MIT for code and CC BY‑4.0 for data, encouraging community contributions and transparent research. Bitview aims to empower developers, researchers, and enthusiasts with reliable, high‑quality Bitcoin data and visualizations.
+
+**Areas:** Company
+
+## Bitview on APIs.io
+
+Everything profiled for Bitview is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bitview-space/](https://apis.io/providers/bitview-space/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Bitview Addresses API](https://apis.io/apis/bitview-space/bitview-space-addresses-api/) — Address balances, transaction history and UTXOs. Supports P2PKH, P2SH, P2WPKH, P2WSH, P2TR and P2A addresses, and P2PK public keys in hex (33 or 65 bytes).…
+- [Bitview Blocks API](https://apis.io/apis/bitview-space/bitview-space-blocks-api/) — Blocks by hash or height: headers, transaction lists and raw block bytes. *[Mempool.space](https://mempool.space/docs/api/rest) compatible.*
+- [Bitview Fees API](https://apis.io/apis/bitview-space/bitview-space-fees-api/) — Fee estimation and projected mempool blocks. *[Mempool.space](https://mempool.space/docs/api/rest) compatible.*
+- [Bitview General API](https://apis.io/apis/bitview-space/bitview-space-general-api/) — Difficulty adjustments and BTC/USD price data. *[Mempool.space](https://mempool.space/docs/api/rest) compatible.*
+- [Bitview Mempool API](https://apis.io/apis/bitview-space/bitview-space-mempool-api/) — Mempool statistics, transaction IDs, fee histogram and recent transactions. *[Mempool.space](https://mempool.space/docs/api/rest) compatible.*
+- [Bitview Mining API](https://apis.io/apis/bitview-space/bitview-space-mining-api/) — Mining statistics including pool distribution, hashrate, difficulty adjustments, block rewards, and fee rates across configurable time periods.…
+- [Bitview Oracle API](https://apis.io/apis/bitview-space/bitview-space-oracle-api/) — On-chain BTC/USD price derived purely from round-dollar payment patterns in transaction outputs, with no external price feed. Payment activity is binned on…
+- [Bitview Series API](https://apis.io/apis/bitview-space/bitview-space-series-api/) — Thousands of historical Bitcoin series across calendar, block and entity indexes, as JSON or CSV. Series are renamed only in releases, each rename listed in…
+- [Bitview Server API](https://apis.io/apis/bitview-space/bitview-space-server-api/) — API metadata, health monitoring, and OpenAPI specifications.
+- [Bitview Silent Payments API](https://apis.io/apis/bitview-space/bitview-space-silent-payments-api/) — BIP352 silent payments for light wallets: BlindBit oracle v1's HTTP API (what spdk and Dana, Bull Bitcoin and blindbitd speak) under `/blindbit/mainnet/`,…
+- [Bitview Transactions API](https://apis.io/apis/bitview-space/bitview-space-transactions-api/) — Transactions by txid: details, confirmation status, raw hex, merkle proofs and output spends. *[Mempool.space](https://mempool.space/docs/api/rest) compatible.*
+- [Bitview URPD API](https://apis.io/apis/bitview-space/bitview-space-urpd-api/) — UTXO Realized Price Distribution. For each (cohort, block) pair, supply is grouped by the price at which each UTXO was last moved. Distributions are…
+- [Bitview UTXO Set API](https://apis.io/apis/bitview-space/bitview-space-utxo-set-api/) — The UTXO set by creation height: what remains unspent of each block's outputs after a block or a UTC day, and what a block or a day changed. Reconstructed…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Bitview Agentic Access](https://apis.io/agentic-access/bitview-space/bitview-space-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BlockFeeRatesEntry](https://apis.io/schemas/bitview-space/bitview-space-block-fee-rates-entry/)
+- [BlockInfoV1](https://apis.io/schemas/bitview-space/bitview-space-block-info-v1/)
+- [BlockTemplate](https://apis.io/schemas/bitview-space/bitview-space-block-template/)
+- [DifficultyAdjustment](https://apis.io/schemas/bitview-space/bitview-space-difficulty-adjustment/)
+- [OracleBlock](https://apis.io/schemas/bitview-space/bitview-space-oracle-block/)
+- [Transaction](https://apis.io/schemas/bitview-space/bitview-space-transaction/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bitview Space Context](https://apis.io/jsonld/bitview-space/bitview-space-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Bitview API Rules](https://apis.io/rules/bitview-space/bitview-space-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bitview Domain Security](https://apis.io/security/bitview-space/bitview-space-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bitview.space/)
+- [API reference](https://bitview.space/api/)
+- [Support](https://bitview.space/support/)
+- [Terms of service](https://bitview.space/terms/)
+- [Privacy policy](https://bitview.space/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 38.2** — thin · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 57.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 28.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bitview-space/](https://apis.io/providers/bitview-space/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bitview: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bitview-space/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
